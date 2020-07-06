@@ -21,8 +21,3 @@ def return_string_array(array)
     element.to_s
   end
 end
-
-# array = [1, 3, 4]
-# array.collect do |n|
-# n.to_s
-# end
