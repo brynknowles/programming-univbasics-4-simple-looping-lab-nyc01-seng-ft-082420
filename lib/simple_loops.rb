@@ -10,7 +10,7 @@ end
   
 def output_array(array)
   counter = 0
-  while 
+  while array[counter]do
 end
     
 # def return_string_array
