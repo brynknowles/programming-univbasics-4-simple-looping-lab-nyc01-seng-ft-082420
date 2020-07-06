@@ -38,9 +38,17 @@ end
 # end
     
 # this is the lesson's solution:
-
-def return_string_array(array)
-  array.collect do |element|
-    element.to_s
+def output_array(array)
+  count = 0
+  while count < array.length do
+    puts array[count]
+    count += 1
   end
 end
+
+# this is my solution:
+# def return_string_array(array)
+#   array.collect do |element|
+#     element.to_s
+#   end
+# end
