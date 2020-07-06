@@ -9,7 +9,7 @@ def loop_message_n_times(message, number)
 end 
   
 def output_array(array)
-  
+  array.each
 end
     
 # def return_string_array
