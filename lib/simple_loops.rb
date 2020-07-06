@@ -19,6 +19,7 @@ end
 def return_string_array(array)
   array.collect do |n|
     n.to_s
+  end
 end
 
 # array = [1, 3, 4]
