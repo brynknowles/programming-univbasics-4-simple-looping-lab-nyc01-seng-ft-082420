@@ -20,7 +20,7 @@ def return_string_array(array)
   
 end
 
-# array = [“1”,“3”,“4”]
+# array = [1, 3, 4]
 # array.collect do |n|
-# n.to_i
+# n.to_s
 # end
