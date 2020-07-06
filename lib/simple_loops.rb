@@ -17,7 +17,8 @@ def output_array(array)
 end
     
 def return_string_array(array)
-  
+  array.collect do |n|
+    n.to_s
 end
 
 # array = [1, 3, 4]
